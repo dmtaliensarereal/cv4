@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.box {
+    padding: 20px 30px;
+    max-width: 1000px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.photo {
+    margin-top: 20px;;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    text-indent: 50px;
+}
+
+.about-me {
+    margin-left: 20px;
+    line-height: 130%
+}
+
+.company {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.list {
+    padding: 0px 0px;
+    list-style: square;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1400px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.side_box {
+    position: absolute;
+    top: 276px;
+    left: 1100px;
+    padding: 20px 30px;
+}
+
+.side_box h2 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-top: 30px;
+}
+
+
+
+.responcibilities {
+    position: relative;
+}
+
+.timeline1 {
+    position: absolute;
+    height: 220px;
+    width: 3px;
+    background-color: rgb(207, 207, 207);
+    left: 53px;
+    top: 75px;
+
+}
+
+.timeline2 {
+    position: absolute;
+    height: 295px;
+    width: 3px;
+    background-color: rgb(207, 207, 207);
+    top: 75px;
+    left: 53px;
+}
+
+.timeline3 {
+    position: absolute;
+    height: 408px;
+    width: 3px;
+    background-color: rgb(207, 207, 207);
+    top: 130px;
+    left: 53px;
+}
+
+.education {
+    margin-bottom: 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.education ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.contacts{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1375px) {
+    .container {
+        position: initial;
+    }
+    .side_box {
+        position: initial;
+        display: flex;
+    }
+
+    .side_box > div {
+        margin-left: 35px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .photo {
+        float: left;
+        margin-right: 20px;
+    }
+}
