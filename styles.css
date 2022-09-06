@@ -111,7 +111,7 @@ h1 {
 
 .timeline1 {
     position: absolute;
-    height: 220px;
+    height: 215px;
     width: 3px;
     background-color: rgb(207, 207, 207);
     left: 53px;
@@ -121,7 +121,7 @@ h1 {
 
 .timeline2 {
     position: absolute;
-    height: 295px;
+    height: 280px;
     width: 3px;
     background-color: rgb(207, 207, 207);
     top: 75px;
@@ -130,7 +130,7 @@ h1 {
 
 .timeline3 {
     position: absolute;
-    height: 408px;
+    height: 395px;
     width: 3px;
     background-color: rgb(207, 207, 207);
     top: 130px;
